@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>GigKoto Draft</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Drag-Drop-File-Input-Upload.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: url(&quot;assets/img/pexels-ron-lach-9903256.jpg&quot;) no-repeat, rgb(228,228,228);background-size: cover, auto;">
+    <div class="modal fade" role="dialog" tabindex="-1" id="regPersonalInfo">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="padding-right: 50px;padding-left: 50px;">
+                    <div style="text-align: center;margin-bottom: 10px;"><img src="assets/img/logoblack.png" width="80px"></div>
+                    <h6 style="color: rgb(98,98,98);text-align: center;margin-bottom: 10px;">GIG TALENT(GT) REGISTRATION FORM</h6>
+                    <div style="text-align: center;margin-bottom: 20px;"><img src="assets/img/PersonalInfo.png" width="700px"></div>
+                    <div style="background: #FDC307;padding: 5px;padding-left: 9px;padding-bottom: 1px;margin-bottom: 20px;">
+                        <h6 style="color: rgb(255,255,255);margin-bottom: 5px;">USER INFORMATION</h6>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-6" style="margin-bottom: 5px;padding-right: 2px;padding-left: 0px;"><label style="margin-bottom: 5px;">First name</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                            <div class="col-md-6" style="margin-bottom: 5px;padding-right: 0px;padding-left: 2px;"><label style="margin-bottom: 5px;">Last name</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-6" style="margin-bottom: 5px;padding-right: 2px;padding-left: 0px;"><label style="margin-bottom: 5px;">Age</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                            <div class="col-md-6" style="margin-bottom: 5px;padding-right: 0px;padding-left: 2px;"><label style="margin-bottom: 5px;">Gender</label><select class="form-control" style="height: 30px;font-size: 12px;">
+                                    <option value="12" selected="">Male</option>
+                                    <option value="13">Female</option>
+                                    <option value="14">Other</option>
+                                </select></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Complete address</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 70px;">
+                        <div class="row">
+                            <div class="col-md-6" style="padding-right: 2px;padding-left: 0px;"><label>Phone Number</label><input type="text" class="form-control" style="height: 30px;" placeholder="Start with area code"></div>
+                            <div class="col-md-6" style="padding-left: 2px;padding-right: 0px;"><label>Email address</label><input type="text" class="form-control" style="height: 30px;" placeholder="Enter a valid email address"></div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;margin-bottom: 30px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);width: 162.1094px;color: rgb(255,255,255);">Next</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="regAreaOfExp">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="padding-right: 50px;padding-left: 50px;">
+                    <div style="text-align: center;margin-bottom: 10px;"><img src="assets/img/logoblack.png" width="80px"></div>
+                    <h6 style="color: rgb(98,98,98);text-align: center;margin-bottom: 10px;">GIG TALENT(GT) REGISTRATION FORM</h6>
+                    <div style="text-align: center;margin-bottom: 20px;"><img src="assets/img/pref.png" width="700px"></div>
+                    <div style="background: #FDC307;padding: 5px;padding-left: 9px;padding-bottom: 1px;margin-bottom: 20px;">
+                        <h6 style="color: rgb(255,255,255);margin-bottom: 5px;">AREA OF EXPERTISE</h6>
+                    </div>
+                    <div class="container" style="margin-bottom: 60px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Area of Expertise</label><select class="form-control">
+                                    <option value="12" selected="">This is item 1</option>
+                                    <option value="13">This is item 2</option>
+                                    <option value="14">This is item 3</option>
+                                </select></div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;margin-bottom: 30px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);width: 162.1094px;color: rgb(255,255,255);">Next</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="regWorkExp">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="padding-right: 50px;padding-left: 50px;">
+                    <div style="text-align: center;margin-bottom: 10px;"><img src="assets/img/logoblack.png" width="80px"></div>
+                    <h6 style="color: rgb(98,98,98);text-align: center;margin-bottom: 10px;">GIG TALENT(GT) REGISTRATION FORM</h6>
+                    <div style="text-align: center;margin-bottom: 20px;"><img src="assets/img/workexperience.png" width="700px"></div>
+                    <div style="background: #FDC307;padding: 5px;padding-left: 9px;padding-bottom: 1px;margin-bottom: 20px;">
+                        <h6 style="color: rgb(255,255,255);margin-bottom: 5px;">A. WORK EXPERIENCE</h6>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Company</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Country</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row">
+                            <div class="col-md-6" style="padding-right: 2px;padding-left: 0px;"><label>Date from</label><input class="form-control" type="date"></div>
+                            <div class="col-md-6" style="padding-left: 2px;padding-right: 0px;"><label>Until</label><input class="form-control" type="date"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Role</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 30px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Achievements</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex" style="margin-bottom: 30px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);color: rgb(255,255,255);border-radius: 50%;width: 25px;height: 25px;font-size: 20px;padding-top: -25px;padding-right: 2px;padding-bottom: -4px;margin-right: 15px;"></button>
+                        <h6 style="color: rgb(115,115,115);">Add another work experience</h6>
+                    </div>
+                    <hr style="margin-bottom: 30px;">
+                    <div style="background: #FDC307;padding: 5px;padding-left: 9px;padding-bottom: 1px;margin-bottom: 20px;">
+                        <h6 style="color: rgb(255,255,255);margin-bottom: 5px;">B. SAMPLE PROJECT</h6>
+                    </div>
+                    <div class="container" style="margin-bottom: 35px;">
+                        <div class="row">
+                            <div class="col-sm-11" style="padding-right: 2px;padding-left: 0px;"><label>Sample project (optional)</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"><small style="color: rgb(163,163,163);">Add a link to your sample work and/or portfolio by typing or pasting in the given box above.<br>Click on the plus button to add another one.&nbsp;&nbsp;</small></div>
+                            <div class="col-sm-1" style="padding-left: 2px;padding-right: 0px;">
+                                <div class="d-flex justify-content-center" style="height: 100%;width: 100%;padding-top: 35px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);color: rgb(255,255,255);border-radius: 50%;width: 25px;height: 25px;font-size: 20px;padding-top: -25px;padding-right: 2px;padding-bottom: -4px;"></button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;margin-bottom: 30px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);width: 162.1094px;color: rgb(255,255,255);">Next</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="regIntroVid">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="padding-right: 50px;padding-left: 50px;">
+                    <div style="text-align: center;margin-bottom: 10px;"><img src="assets/img/logoblack.png" width="80px"></div>
+                    <h6 style="color: rgb(98,98,98);text-align: center;margin-bottom: 10px;">GIG TALENT(GT) REGISTRATION FORM</h6>
+                    <div style="text-align: center;margin-bottom: 20px;"><img src="assets/img/workexperience.png" width="700px"></div>
+                    <div style="background: #FDC307;padding: 5px;padding-left: 9px;padding-bottom: 1px;margin-bottom: 20px;">
+                        <h6 style="color: rgb(255,255,255);margin-bottom: 5px;">C. INTRO VIDEO</h6>
+                    </div>
+                    <div style="margin-bottom: 70px;"><label>Intro Video (optional)</label><small style="color: rgb(163,163,163);"><br>Add a 30 seconds video introducing yourself and describing your previous work and achievements.<br>Please try to be as confident as possible, be yourself and have fun. Good luck!&nbsp;&nbsp;</small>
+                        <div class="form-group files color"><input type="file" multiple="" name="files"></div>
+                    </div>
+                    <div style="text-align: center;margin-bottom: 30px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);width: 162.1094px;color: rgb(255,255,255);">Next</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="regEduBg">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="padding-right: 50px;padding-left: 50px;">
+                    <div style="text-align: center;margin-bottom: 10px;"><img src="assets/img/logoblack.png" width="80px"></div>
+                    <h6 style="color: rgb(98,98,98);text-align: center;margin-bottom: 10px;">GIG TALENT(GT) REGISTRATION FORM</h6>
+                    <div style="text-align: center;margin-bottom: 20px;"><img src="assets/img/educationalbackground.png" width="700px"></div>
+                    <div style="background: #FDC307;padding: 5px;padding-left: 9px;padding-bottom: 1px;margin-bottom: 20px;">
+                        <h6 style="color: rgb(255,255,255);margin-bottom: 5px;">EDUCATIONAL BACKGROUND</h6>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Highest Qualification</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row">
+                            <div class="col-md-6" style="padding-right: 2px;padding-left: 0px;"><label>Name of School</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                            <div class="col-md-6" style="padding-left: 2px;padding-right: 0px;"><label>Date Graduated</label><input class="form-control" type="date"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 35px;">
+                        <div class="row">
+                            <div class="col-md-6" style="padding-right: 2px;padding-left: 0px;"><label>Course</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                            <div class="col-md-6" style="padding-left: 2px;padding-right: 0px;"><label>Specialization</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex" style="margin-bottom: 30px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);color: rgb(255,255,255);border-radius: 50%;width: 25px;height: 25px;font-size: 20px;padding-top: -25px;padding-right: 2px;padding-bottom: -4px;margin-right: 15px;"></button>
+                        <h6 style="color: rgb(115,115,115);">Add another Qualification (optional)</h6>
+                    </div>
+                    <hr style="margin-bottom: 30px;">
+                    <div class="container" style="margin-bottom: 70px;">
+                        <div class="row">
+                            <div class="col-sm-11" style="padding-right: 2px;padding-left: 0px;"><label>Add another short course relevant to your area of expertise (optional)</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"><small style="color: rgb(163,163,163);">Click on the plus button to add another one.&nbsp;&nbsp;</small></div>
+                            <div class="col-sm-1" style="padding-left: 2px;padding-right: 0px;">
+                                <div class="d-flex justify-content-center" style="height: 100%;width: 100%;padding-top: 35px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);color: rgb(255,255,255);border-radius: 50%;width: 25px;height: 25px;font-size: 20px;padding-top: -25px;padding-right: 2px;padding-bottom: -4px;"></button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;margin-bottom: 30px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);width: 162.1094px;color: rgb(255,255,255);">Next</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="regComInfo">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="padding-right: 50px;padding-left: 50px;">
+                    <div style="text-align: center;margin-bottom: 10px;"><img src="assets/img/logoblack.png" width="80px"></div>
+                    <h6 style="color: rgb(98,98,98);text-align: center;margin-bottom: 10px;">GIG TALENT-SEEKER(GTS) REGISTRATION FORM</h6>
+                    <div style="text-align: center;margin-bottom: 20px;"><img src="assets/img/companyinfo.png" width="700px"></div>
+                    <div style="background: #FDC307;padding: 5px;padding-left: 9px;padding-bottom: 1px;margin-bottom: 20px;">
+                        <h6 style="color: rgb(255,255,255);margin-bottom: 5px;">COMPANY INFORMATION</h6>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Company name</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row">
+                            <div class="col-md-8" style="padding-right: 2px;padding-left: 0px;"><label>Complete address</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                            <div class="col-md-4" style="padding-left: 2px;padding-right: 0px;"><label>Office #</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Industry</label><select class="form-control">
+                                    <option value="12" selected="">Administrative Virtual Assistant</option>
+                                    <option value="13">Program or Project Coordination</option>
+                                    <option value="14">IT/Tech Services</option>
+                                    <option value="">Professional Services</option>
+                                    <option value="">Sales &amp; Marketing</option>
+                                </select></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Email address</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;" placeholder="Enter a valid email address"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 30px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Billing details</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div style="background: #FDC307;padding: 5px;padding-left: 9px;padding-bottom: 1px;margin-bottom: 20px;">
+                        <h6 style="color: rgb(255,255,255);margin-bottom: 5px;">COMPANY REPRESENTATIVE</h6>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Name</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 70px;">
+                        <div class="row">
+                            <div class="col-md-6" style="padding-right: 2px;padding-left: 0px;"><label>Phone number</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;" placeholder="Start with area code"></div>
+                            <div class="col-md-6" style="padding-left: 2px;padding-right: 0px;"><label>Email address</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;" placeholder="Enter a valid email address"></div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;margin-bottom: 30px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);width: 162.1094px;color: rgb(255,255,255);">Next</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="regSurvey">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="padding-right: 50px;padding-left: 50px;">
+                    <div style="text-align: center;margin-bottom: 10px;"><img src="assets/img/logoblack.png" width="80px"></div>
+                    <h6 style="color: rgb(98,98,98);text-align: center;margin-bottom: 10px;">GIG TALENT-SEEKER(GTS) REGISTRATION FORM</h6>
+                    <div style="text-align: center;margin-bottom: 20px;"><img src="assets/img/survey.png" width="700px"></div>
+                    <div style="background: #FDC307;padding: 5px;padding-left: 9px;padding-bottom: 1px;margin-bottom: 20px;">
+                        <h6 style="color: rgb(255,255,255);margin-bottom: 5px;">SURVEY</h6>
+                    </div>
+                    <p style="color: rgb(156,156,156);font-size: 14PX;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br></p>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Type of Gig Talent Needed</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">Type of budget (Hourly rate per gig talent selected)</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-bottom: 5px;">
+                        <div class="row" style="margin-bottom: 5px;">
+                            <div class="col-md-12" style="margin-bottom: 5px;padding-right: 0px;padding-left: 0px;"><label style="margin-bottom: 5px;">How often the gig talent services is required in a year's time</label><input type="text" class="form-control" style="height: 30px;margin-bottom: 5px;"></div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;margin-bottom: 30px;"><button class="btn form-control" type="button" style="background: rgb(253,195,7);width: 162.1094px;color: rgb(255,255,255);">Next</button></div>
+                </div>
+            </div>
+        </div>
+    </div><button class="btn btn-primary" data-toggle="modal" data-target="#regPersonalInfo" type="button">Personal Info</button><button class="btn btn-primary" data-toggle="modal" data-target="#regAreaOfExp" type="button">Area of Expertise</button><button class="btn btn-primary" data-toggle="modal" data-target="#regWorkExp" type="button">Work Experience</button><button class="btn btn-primary" data-toggle="modal" data-target="#regIntroVid" type="button">Intro Vid</button><button class="btn btn-primary" data-toggle="modal" data-target="#regEduBg" type="button">Educational Background</button><button class="btn btn-primary" data-toggle="modal" data-target="#regComInfo" type="button">Company Info</button><button class="btn btn-primary" data-toggle="modal" data-target="#regSurvey" type="button">Survey</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
